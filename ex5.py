@@ -9,8 +9,8 @@ height_cm = height * 2.54
 weight_kg = weight / 2.20
 
 print(f"Let's talk about {name}.")
-print(f"He's {height} inches tall. In centimeters, it would be {height_cm} centimeters.")
-print(f"He's {weight} punds heavy. In kilograms, it would be {weight_kg} kilograms.")
+print(f"He's {height} inches tall. In centimeters, it would be {(int (height_cm))} centimeters.")
+print(f"He's {weight} punds heavy. In kilograms, it would be {(int (weight_kg))} kilograms.")
 print(f"Actually that's not too heavy.")
 print(f"He's got {eyes} eyes and {hair} hair.")
 print(f"His teeth are usually {teeth} depending on the coffee.")
